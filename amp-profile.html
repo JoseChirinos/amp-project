@@ -1,0 +1,108 @@
+<!doctype html>
+<html amp lang="es">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Profile Fast AMPs</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+    <link rel="canonical" href="profile.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      .header{
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-color:#c2b1a0;
+      }
+      .header-dates{
+        position: absolute;
+        width: 200px;
+        height: 80%;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+      }
+      .header-dates-number{
+        font-family: 'Poppins', sans-serif;
+        font-size: 75px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .header-dates-name{
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+      }
+      .header-dates-spinner{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        width: 170px;
+        height: 4px;
+        margin: 0 auto;
+        background: rgba(255,255,255,0.5);
+      }
+      .header-dates-progress{
+        width: 75px;
+        height: 4px;
+        background: #fff;
+      }
+      .header-dates-range{
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        right: 0;
+        margin: 15px 0px;
+        text-align: center;
+      }
+      .header-image{
+        position: absolute;
+        width: 190px;
+        height: 60%;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <div class="header-dates">
+        <div class="header-dates-number">
+          2
+        </div>
+        <div class="header-dates-name">
+          Solder Athena
+        </div>
+        <div class="header-dates-spinner">
+          <div class="header-dates-progress"></div>
+        </div>
+        <div class="header-dates-range">
+          18000/40000
+        </div>
+      </div>
+      <div class="header-image">
+        <amp-img
+          src="images/AthenaSoldiers.png"
+          alt="Imagen Soldado"
+          height="242"
+          width="242"
+        ></amp-img>
+      </div>
+    </section>
+    <h1>Profile Fast</h1>
+    <amp-img 
+      src="https://picsum.photos/200/300"
+      alt="Bienvenido" 
+      height="400" 
+      width="400" 
+      layout="responsive"
+    ></amp-img>
+  </body>
+</html>
